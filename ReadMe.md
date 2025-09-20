@@ -1,25 +1,24 @@
-# Guess the Number Game
+#  Guess the Number Game
 
-This is a simple command-line game where the player tries to guess a number randomly selected by the computer.
+A terminal-based Python game with difficulty levels and smarter game logic.
 
-## How to Play
+##  Features
+- Multiple difficulty levels
+- Limited attempts based on difficulty
+- Input validation and clean UX
+- Option to play again without restarting the script
 
-1. The computer picks a random number within a specified range.
-2. The player enters guesses to find the number.
-3. The game tells you if your guess is too high, too low, or correct.
-4. The number of attempts is tracked and displayed when you win.
+##  Difficulty Modes
 
-## Requirements
+| Mode   | Range        | Max Attempts |
+|--------|--------------|---------------|
+| Easy   | 1–50         | 10            |
+| Medium | 1–100        | 7             |
+| Hard   | 1–200        | 5             |
 
+##  Requirements
 - Python 3.x
 
-## How to Run
-
-1. Clone the repository.
-2. Run the game script:
-
-   ```bash
-   python guess_the_number.py
-   ```
-
-Enjoy the game!
+##  Run the Game
+```bash
+python guess_the_number.py
